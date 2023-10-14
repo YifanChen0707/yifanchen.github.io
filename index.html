@@ -1,0 +1,31 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+<script>   
+$(function(){  
+    $("#flip").click(function(){  
+        $("#panel").slideToggle("slow");  
+    });  
+});  
+</script>  
+ <style>   
+#panel, #flip {  
+    padding: 5px;  
+    text-align: center;  
+    background-color: burlywood;  
+    border: solid 1px #000000;
+    font-size:x-large;
+}  
+#panel {  
+    padding: 50px;  
+    display:block;  
+}  
+</style>  
+</head>  
+<body>  
+<div id="flip">Click it</div>  
+<div id="panel">Watch lianhualou immediately!
+Try your best!</div>  
+</body>  
+</html>  
